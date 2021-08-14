@@ -1,0 +1,21 @@
+A list of things to be done on the project:
+
+TODO: After app works by polling aapi for card data everytime, cache card data by storing values for cards in card model
+OPTION:
+1: We can have a listitem that describes how many copies of a card exist in teh deck and constrain the 4 card copy there
+2: we have a list of the cards and allow duplicates in the list up to four times, will get expensive for larger decksizes or card lists
+With performance considerations, having a list of list items may have better performance implications and therefore option 1 is chosen.
+ISSUE:
+We need to have a card model for caching card info and we need a Card model for storing a card to a deck
+SOLUTION:
+Store the card to deck relational info in Card and the cached card info in CardInfo
+TODO: when searching for a card first check the CardInfo Table for the card the ntry checking the external API
+
+TODO: Create Serializers for Deck
+
+{% comment %} 
+We are revamping the project to be a card searcher with caching instead
+ {% endcomment %}
+
+TODO: Add more card info fields to the card model
+TODO: Add nickname field to the card field

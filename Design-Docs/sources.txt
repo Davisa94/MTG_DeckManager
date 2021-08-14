@@ -1,0 +1,15 @@
+Sources used as refernce material:
+https://stackoverflow.com/questions/50247068/fatal-error-in-launcher-unable-to-create-process-using-when-running-django
+Issue: as stated in post
+Resolution: I had 2 instances of django-admin installed in different drives.
+uninstalling did not work, I had to manually delete the files. This remedy fixed the issue.
+Reference for anything I am rusty on:
+https://medium.com/swlh/overview-building-a-full-stack-quiz-app-with-django-and-react-57fd07449e2f
+* https://stackoverflow.com/questions/18064973/id-field-in-model-django
+https://stackoverflow.com/questions/61746068/django-rest-framework-how-to-serialize-a-relational-model
+API Reference:
+https://docs.magicthegathering.io/
+Longest Card Name possible:
+https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=74237
+https://api.magicthegathering.io/v1/cards/74237
+= 142 chars, lets round up tp 145
